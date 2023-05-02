@@ -41,6 +41,6 @@ final class Block1 extends Block implements BlockInterface
 
     public function __construct()
     {
-        parent::__construct(self::TOTAL);
+        $this->elementTotal = '1990';
     }
 }
